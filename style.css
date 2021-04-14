@@ -26,3 +26,75 @@ img {
   Custom styles
   ========================================
 */
+
+#page-wrapper {
+	position: relative;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	min-height: 50px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	background-color: #212121;
+}
+
+a {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#nav-bar {
+	width: 50vw;
+}
+
+#header-img {
+	width: 50px;
+}
+
+#header-text {
+	color: white;
+	font-family: "Libre Franklin", sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: 3px;
+	padding-left: 5px;
+}
+
+.logo {
+	width: 50vw;
+	display: flex;
+	align-items: center;
+}
+
+#hero {
+	background-color: #424242;
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-content: start;
+	justify-content: center;
+}
+
+#hero-text {
+	color: White;
+	font-family: "Libre Franklin", sans-serif;
+	margin-left: 25px;
+	font-size: 3.5rem;
+	line-height: 1.2;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
